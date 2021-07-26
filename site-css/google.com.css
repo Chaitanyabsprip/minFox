@@ -1,0 +1,58 @@
+@-moz-document domain(google.com) {
+  a {
+    font-style: none !important;
+    color: var(--color1) !important;
+  }
+
+  body,
+  cite,
+  .sfbg,
+  .WE0UJf,
+  .yg51vc,
+  .appbar,
+  .sbai {
+    background-color: var(--background-main) !important;
+    color: var(--foreground-main) !important;
+  }
+
+  .c93Gbe,
+  .uU7dJb {
+    background-color: var(--background-darker) !important;
+  }
+
+  .uU7dJb {
+    color: var(--foreground-main) !important;
+    border-bottom: 1px solid var(--accent-main) !important;
+  }
+  .gNO89b,
+  .RNmpXc {
+    background-color: var(--button) !important;
+    color: var(--foreground-main) !important;
+    border: 1px solid var(--background-darker) !important;
+  }
+
+  .RNNXgb {
+    background: var(--fields) !important;
+    box-shadow: 0 1px 6px rgba(223, 222, 219, 0.28) !important;
+    border-color: var(--background-main) !important;
+  }
+
+  .aajZCb {
+    background: var(--background-main) !important;
+    box-shadow: 0 1px 6px rgba(223, 222, 219, 0.28) !important;
+  }
+
+  .gLFyf,
+  .wM6W7d,
+  .gb_g {
+    color: var(--foreground-main) !important;
+  }
+
+  .xtSCL {
+    border-top: none !important;
+  }
+
+  .sbhl {
+    background: var(--button) !important;
+  }
+}

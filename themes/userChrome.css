@@ -1,0 +1,76 @@
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/fonts/HackMono.css";
+
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/colors/colors.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/colorschemes/tokyonight.css";
+
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/debloat_tab_bar.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/tabs_layout.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/tabs_fill_available_width.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/numbered_tabs.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/tab_close_button_always_on_hover.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/hide_tabs_with_one_tab.css";
+
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/navbar/debloat_navbar.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/navbar/navbar_layout.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/navbar/navbar_on_focus.css";
+
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/urlbar/debloat_urlbar.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/urlbar/urlbar_layout.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/urlbar/remove_megabar.css";
+
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/sidebar/debloat_sidebar.css";
+@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/sidebar/sidebar_layout.css";
+
+.tab-content {
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
+  min-width: 100% !important;
+  padding: 0 10px !important;
+}
+
+.tab-content::before {
+  content: "";
+  display: -moz-box;
+  -moz-box-flex: 1;
+}
+
+.tab-icon-image,
+.tab-icon-sound,
+.tab-throbber,
+.tab-throbber-fallback,
+.tab-close-button {
+  min-width: 16px;
+}
+
+.tab-background {
+  border: none !important;
+}
+
+.toolbar-items:-moz-lwtheme-darktext,
+.toolbar-items:-moz-lwtheme-brighttext {
+  background-color: transparent !important;
+}
+
+.tab-background:-moz-lwtheme-darktext,
+.tab-background:-moz-lwtheme-brighttext {
+  background: transparent !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+  border-left: none !important;
+}
+
+.tabbrowser-tab[beforeselected-visible="true"]::after,
+.tabbrowser-tab[beforeselected-visible="true"]::before,
+.tabbrowser-tab[selected="true"]::after,
+.tabbrowser-tab[selected="true"]::before {
+  border-left: none !important;
+}
+
+.tab-content[selected="true"],
+.tab-content[multiselected="true"] {
+  /* padding-inline: unset !important; */
+  border-bottom: 12px solid var(--color-urlbar-selected-bg) !important;
+}

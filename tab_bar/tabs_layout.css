@@ -1,0 +1,36 @@
+:root {
+  --tab-min-height: 32px !important;
+}
+
+/* https://www.reddit.com/r/FirefoxCSS/comments/k3gnwz/is_it_possible_to_specify_the_text_color_of/ge5cr5p?utm_source=share&utm_medium=web2x&context=3 */
+.tab-label-container {
+  height: var(--tab-min-height) !important;
+  opacity: 1 !important;
+}
+
+.tab-label {
+  line-height: var(--tab-min-height) !important;
+}
+
+.tab-icon-image {
+  margin-top: 2px !important;
+  opacity: 1 !important;
+}
+
+.tab-icon-image,
+.tab-icon-sound,
+.tab-close-button {
+  height: 1em !important;
+  width: 1em !important;
+}
+
+.toolbar-items:-moz-lwtheme-darktext,
+.toolbar-items:-moz-lwtheme-brighttext {
+  background-color: transparent !important;
+  -moz-appearance: var(--bf-moz-appearance) !important;
+}
+
+.tab-content[selected="true"],
+.tab-content[multiselected="true"] {
+  border-bottom: 12px solid var(--color-urlbar-selected-bg) !important;
+}

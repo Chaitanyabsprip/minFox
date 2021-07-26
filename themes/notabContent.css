@@ -1,0 +1,25 @@
+/* @import "../site-css/google.com.css"; */
+
+:root {
+  /* Afterglow */
+  /* --color-about-blank: #1a1a1a; */
+  /* Gruvbox */
+  /* --color-about-blank: #282828; */
+  /* Onedark */
+  /* --color-about-blank: #282c34; */
+  /* Tokyonight */
+  --accent-main: #7aa2f7;
+  --background-darker: #21242d;
+  --background-main: #262c3a;
+  --button: #414c63;
+  --color1: #f4b02a;
+  --color2: #ab47bc;
+  --fields: #545c7e;
+  --foreground-main: #c0caf5;
+}
+
+@-moz-document url-prefix(about:blank) {
+  * {
+    background-color: var(--background-main) !important;
+  }
+}
