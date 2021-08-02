@@ -3,8 +3,14 @@ See the above repository for updates as well as full license text. */
 
 /* Always show tab close button on hover and never otherwise */
 .tabbrowser-tab .tab-close-button {
+  margin: 0 !important;
+  padding: 0 !important;
   opacity: 0 !important;
+  fill: var(--color-focused-tabs-bg) !important;
+  fill: var(--color-sidebar-fg) !important;
 }
 .tabbrowser-tab:not([pinned]):hover .tab-close-button {
   opacity: 1 !important;
+  fill: var(--color-sidebar-fg) !important;
+  background-color: var(--color-focused-tabs-bg) !important;
 }

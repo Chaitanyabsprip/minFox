@@ -1,25 +1,25 @@
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/fonts/HackMono.css";
+@import "fonts/HackMono.css";
 
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/colors/colors.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/colorschemes/tokyonight.css";
+@import "colors/colors.css";
+@import "colorschemes/tokyonight.css";
 
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/debloat_tab_bar.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/tabs_layout.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/tabs_fill_available_width.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/numbered_tabs.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/tab_close_button_always_on_hover.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/tab_bar/hide_tabs_with_one_tab.css";
+@import "tab_bar/debloat_tab_bar.css";
+@import "tab_bar/tabs_layout.css";
+@import "tab_bar/tabs_fill_available_width.css";
+@import "tab_bar/numbered_tabs.css";
+@import "tab_bar/tab_close_button_always_on_hover.css";
+@import "tab_bar/hide_tabs_with_one_tab.css";
 
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/navbar/debloat_navbar.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/navbar/navbar_layout.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/navbar/navbar_on_focus.css";
+@import "navbar/debloat_navbar.css";
+@import "navbar/navbar_layout.css";
+@import "navbar/navbar_on_focus.css";
 
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/urlbar/debloat_urlbar.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/urlbar/urlbar_layout.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/urlbar/remove_megabar.css";
+@import "urlbar/debloat_urlbar.css";
+@import "urlbar/urlbar_layout.css";
+@import "urlbar/remove_megabar.css";
 
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/sidebar/debloat_sidebar.css";
-@import "/home/chaitanya/.mozilla/firefox/jxl340se.default-release-1/chrome/sidebar/sidebar_layout.css";
+@import "sidebar/debloat_sidebar.css";
+@import "sidebar/sidebar_layout.css";
 
 .tab-content {
   justify-content: center;

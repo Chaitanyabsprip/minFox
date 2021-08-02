@@ -2,8 +2,8 @@
 
 .tab-content[selected="true"] {
   color: var(--color-focused-tabs-fg);
-  background-color: var(--color-unfocused-tabs-bg);
-  /* background-color: transparent !important; */
+  /* background-color: var(--color-focused-tabs-bg); */
+  background-color: transparent !important;
   font-style: italic;
   font-weight: 800;
 }
