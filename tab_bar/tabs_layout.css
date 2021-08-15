@@ -30,12 +30,7 @@
   -moz-appearance: var(--bf-moz-appearance) !important;
 }
 
-/* .tab-content[selected="true"],
-.tab-content[multiselected="true"] {
-  border-bottom: 12px solid var(--color-urlbar-selected-bg) !important;
-} */
-
-.tabbrwoser-tab[multiselected],
+/* .tabbrwoser-tab[multiselected],
 .tabbrowser-tab[selected] .tab-background::after {
   content: "";
   display: block;
@@ -43,6 +38,6 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 4px;
+  height: 1px;
   background-color: blue;
-}
+} */

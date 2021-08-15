@@ -1,7 +1,7 @@
 @import "fonts/HackMono.css";
 
 @import "colors/colors.css";
-@import "colorschemes/tokyonight.css";
+@import "colorschemes/rose-pine.css";
 
 @import "tab_bar/debloat_tab_bar.css";
 @import "tab_bar/tabs_layout.css";
@@ -72,5 +72,5 @@
 .tab-content[selected="true"],
 .tab-content[multiselected="true"] {
   /* padding-inline: unset !important; */
-  border-bottom: 12px solid var(--color-urlbar-selected-bg) !important;
+  border-bottom: 9px solid var(--color-urlbar-selected-bg) !important;
 }

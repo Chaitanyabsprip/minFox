@@ -51,9 +51,9 @@ toolbar {
   min-height: 0 !important;
 }
 
-#tabbrowser-tabs:not(focus-within):not(:hover) {
+/* #tabbrowser-tabs:not(focus-within):not(:hover) {
   margin-top: -30px !important;
-}
+} */
 
 #tabbrowser-tabs {
   margin-top: 0 !important;
