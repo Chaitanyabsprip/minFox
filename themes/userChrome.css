@@ -1,25 +1,25 @@
-@import "fonts/HackMono.css";
+@import 'fonts/HackMono.css';
 
-@import "colors/colors.css";
-@import "colorschemes/rose-pine.css";
+@import 'colors/colors.css';
+@import 'colorschemes/tokyonight.css';
 
-@import "tab_bar/debloat_tab_bar.css";
-@import "tab_bar/tabs_layout.css";
-@import "tab_bar/tabs_fill_available_width.css";
-@import "tab_bar/numbered_tabs.css";
-@import "tab_bar/tab_close_button_always_on_hover.css";
-@import "tab_bar/hide_tabs_with_one_tab.css";
+@import 'tab_bar/debloat_tab_bar.css';
+@import 'tab_bar/tabs_layout.css';
+@import 'tab_bar/tabs_fill_available_width.css';
+@import 'tab_bar/numbered_tabs.css';
+@import 'tab_bar/tab_close_button_always_on_hover.css';
+@import 'tab_bar/hide_tabs_with_one_tab.css';
 
-@import "navbar/debloat_navbar.css";
-@import "navbar/navbar_layout.css";
-@import "navbar/navbar_on_focus.css";
+@import 'navbar/debloat_navbar.css';
+@import 'navbar/navbar_layout.css';
+@import 'navbar/navbar_on_focus.css';
 
-@import "urlbar/debloat_urlbar.css";
-@import "urlbar/urlbar_layout.css";
-@import "urlbar/remove_megabar.css";
+@import 'urlbar/debloat_urlbar.css';
+@import 'urlbar/urlbar_layout.css';
+@import 'urlbar/remove_megabar.css';
 
-@import "sidebar/debloat_sidebar.css";
-@import "sidebar/sidebar_layout.css";
+@import 'sidebar/debloat_sidebar.css';
+@import 'sidebar/sidebar_layout.css';
 
 .tab-content {
   justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .tab-content::before {
-  content: "";
+  content: '';
   display: -moz-box;
   -moz-box-flex: 1;
 }
@@ -62,15 +62,15 @@
   border-left: none !important;
 }
 
-.tabbrowser-tab[beforeselected-visible="true"]::after,
-.tabbrowser-tab[beforeselected-visible="true"]::before,
-.tabbrowser-tab[selected="true"]::after,
-.tabbrowser-tab[selected="true"]::before {
+.tabbrowser-tab[beforeselected-visible='true']::after,
+.tabbrowser-tab[beforeselected-visible='true']::before,
+.tabbrowser-tab[selected='true']::after,
+.tabbrowser-tab[selected='true']::before {
   border-left: none !important;
 }
 
-.tab-content[selected="true"],
-.tab-content[multiselected="true"] {
+.tab-content[selected='true'],
+.tab-content[multiselected='true'] {
   /* padding-inline: unset !important; */
   border-bottom: 9px solid var(--color-urlbar-selected-bg) !important;
 }

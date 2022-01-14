@@ -4,7 +4,7 @@ See the above repository for updates as well as full license text. */
 /* Makes tabs toolbar items zero-height initially and sets enlarge them to fill up space equal to tab-min-height set on tabs */
 /* Firefox 65+ only */
 
-:root[sizemode="normal"] #nav-bar {
+:root[sizemode='normal'] #nav-bar {
   --uc-window-drag-space-width: 20px;
 }
 
@@ -35,12 +35,12 @@ See the above repository for updates as well as full license text. */
 }
 
 #tabbrowser-tabs
-  .tabbrowser-tab[first-visible-tab="true"][last-visible-tab="true"] {
+  .tabbrowser-tab[first-visible-tab='true'][last-visible-tab='true'] {
   visibility: collapse !important;
 }
 
 /* Fix window controls not being clickable */
-:root[tabsintitlebar] #toolbar-menubar[autohide="true"][inactive] {
+:root[tabsintitlebar] #toolbar-menubar[autohide='true'][inactive] {
   transition: height 0ms steps(1) 80ms;
 }
 #nav-bar {
@@ -51,9 +51,9 @@ toolbar {
   min-height: 0 !important;
 }
 
-/* #tabbrowser-tabs:not(focus-within):not(:hover) {
-  margin-top: -30px !important;
-} */
+#tabbrowser-tabs:not(focus-within):not(:hover) {
+  margin-top: -26px !important;
+}
 
 #tabbrowser-tabs {
   margin-top: 0 !important;
