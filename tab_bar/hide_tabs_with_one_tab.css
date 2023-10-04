@@ -68,8 +68,6 @@ This will NOT work correctly if you have hidden tabs such as with tab groups ext
   contain-intrinsic-height: 0px;
 }
 #tabbrowser-arrowscrollbox-periphery{
-  contain-intrinsic-width: 36px;
-  padding-inline-end: 3px;
 }
 #private-browsing-indicator-with-label{
   contain-intrinsic-width: 116px;
