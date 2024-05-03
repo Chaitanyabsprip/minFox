@@ -1,0 +1,15 @@
+:root {
+    --color-unfocused-tabs-bg: #0f111a;
+    --color-unfocused-tabs-fg: #908caa;
+    --color-focused-tabs-bg: #0f111a;
+    --color-focused-tabs-fg: #A6ACCD;
+    --color-urlbar-separator: #403d52;
+    --color-urlbar-bg: #1F1D2E;
+    --color-urlbar-fg: #908caa;
+    --color-urlbar-popup-url: #EBBCBA;
+    --color-urlbar-selected-bg: #EBBCBA;
+    --color-urlbar-selected-fg: #0f111a;
+    --color-urlbar-selected-popup-url: #0f111a;
+    --color-sidebar-bg: #0f111a;
+    --color-sidebar-fg: #6e6a86;
+}

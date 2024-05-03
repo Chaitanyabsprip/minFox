@@ -1,15 +1,15 @@
 :root {
-  --color-unfocused-tabs-bg: #191724;
-  --color-unfocused-tabs-fg: #E0DEF4;
-  --color-focused-tabs-bg: #191724;
-  --color-focused-tabs-fg: #E0DEF4;
-  --color-urlbar-separator: #E0DEF4;
-  --color-urlbar-bg: #1F1D2E;
-  --color-urlbar-fg: #E0DEF4;
-  --color-urlbar-popup-url: #EBBCBA;
-  --color-urlbar-selected-bg: #EBBCBA;
-  --color-urlbar-selected-fg: #191724;
-  --color-urlbar-selected-popup-url: #191724;
-  --color-sidebar-bg: #26233A;
-  --color-sidebar-fg: #191724;
+    --color-unfocused-tabs-bg: #191724;
+    --color-unfocused-tabs-fg: #E0DEF4;
+    --color-focused-tabs-bg: #191724;
+    --color-focused-tabs-fg: #E0DEF4;
+    --color-urlbar-separator: #E0DEF4;
+    --color-urlbar-bg: #1F1D2E;
+    --color-urlbar-fg: #E0DEF4;
+    --color-urlbar-popup-url: #EBBCBA;
+    --color-urlbar-selected-bg: #EBBCBA;
+    --color-urlbar-selected-fg: #191724;
+    --color-urlbar-selected-popup-url: #191724;
+    --color-sidebar-bg: #26233A;
+    --color-sidebar-fg: #191724;
 }
