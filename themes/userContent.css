@@ -9,12 +9,59 @@
                                          
 */
 
-:root{
-	scrollbar-width: none !important;
+:root {
+    scrollbar-width: none !important;
 }
 
-@-moz-document url(about:privatebrowsing) {
-	:root{
-		scrollbar-width: none !important;
-	}
+@-moz-document url(about:privatebrowsing){
+:root {
+    scrollbar-width: none !important;
+}
+}
+
+@-moz-document url-prefix("about:reader") {
+    body.dark {
+        color: #e0def4 !important;
+        background-color: #0f111a !important;
+
+        a {
+            color: #907aa9 !important;
+        }
+
+        h1 {
+            color: #56949f !important;
+        }
+    }
+
+    body.light {
+        color: #222 !important;
+        background-color: #eee !important;
+    }
+
+    body.sepia {
+        color: #5b4636 !important;
+        background-color: #f4ecd8 !important;
+    }
+
+    body.serif {
+        font-family: serif !important;
+    }
+
+    body.sans-serif {
+        font-family: sans-serif !important;
+    }
+}
+
+@-moz-document domain("github.com") {
+    body {
+        color: #e0def4 !important;
+    }
+
+    [data-color-mode="dark"][data-dark-theme="dark_high_contrast"] {
+        --borderColor-default: #727272 !important;
+        --borderColor-muted: #727272 !important;
+        --borderColor-emphasis: #727272 !important;
+        --borderColor-neutral-muted: #727272 !important;
+        --borderColor-neutral-emphasis: #727272 !important;
+    }
 }
