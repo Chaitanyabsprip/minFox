@@ -43,3 +43,8 @@
   width: 1em !important;
   margin-bottom: 0.2em !important;
 }
+
+#urlbar:not(:focus-within) {
+    opacity: 0 !important;
+    pointer-events: none;
+}
