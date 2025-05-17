@@ -2,4 +2,34 @@
 See the above repository for updates as well as full license text. */
 
 /* Why 100vw? Tab closing requires width animation to end and "none" can't be animated */
-.tabbrowser-tab[fadein]{ max-width: 100vw !important }
+/*.tabbrowser-tab[fadein]{ max-width: 100vw !important }*/
+
+tab-group {
+  #tabbrowser-tabs[orient="horizontal"] &[collapsed] > .tabbrowser-tab {
+    min-width: 0 !important;
+    max-width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    display: none !important;
+  }
+}
+
+/* --- ENSURE TABS FILL WIDTH EVENLY --- */
+#tabbrowser-tabs[orient="horizontal"]
+  .tabbrowser-tab[fadein]:not([pinned]):not([hidden]) {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  max-width: 100vw !important;
+}
+
+/* --- RESET TABBROWSER TAB APPEARANCE CLEANLY --- */
+.tabbrowser-tab {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 var(--tab-overflow-clip-margin, 0px) !important;
+  overflow: clip !important;
+  height: calc(
+    var(--tab-min-height) + 2 * var(--tab-block-margin, 0px)
+  ) !important;
+}
